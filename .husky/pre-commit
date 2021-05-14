@@ -1,5 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo "Running prettify..."
+yarn prettify
+
 echo "Running pre-commit tests..."
 yarn test
