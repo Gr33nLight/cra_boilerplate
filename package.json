@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "test": "jest  && eslint --ignore-path .gitignore .",
+    "upd-snap": "jest -u",
     "lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx}\"",
     "prettify": "prettier --write \"./**/*.{ts,tsx,js,jsx,json}\"",
     "format": "yarn run prettify && yarn run lint --fix"
@@ -26,6 +27,7 @@
     "@babel/preset-react": "^7.13.13",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.0",
